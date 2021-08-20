@@ -1,5 +1,5 @@
 def knapsack(w,val,c,n,memoized):
-    if n == 0 or w == 0:
+    if n == 0 or c == 0:
         return 0
     if memoized[n][c] != -1:
         return memoized[n][c]
