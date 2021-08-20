@@ -1,6 +1,0 @@
-[submodule "LeetCodeProblems"]
-	path = LeetCodeProblems
-	url = https://github.com/Shirin-Siddiqui/LeetCodeProblems.git
-[submodule "LogicDev"]
-	path = LogicDev
-	url = https://github.com/Shirin-Siddiqui/LogicDev.git
