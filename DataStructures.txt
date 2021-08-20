@@ -1,0 +1,15 @@
+https://www.geeksforgeeks.org/overview-of-data-structures-set-2-binary-tree-bst-heap-and-hash/
+
+Types - 
+(Linear)
+
+1) Array
+2) Linked-Lists
+3) Stack
+4) Queue
+
+(Non-Linear)
+5) Binary Tree
+6) Binary Search Tree
+7) Heap
+8) Hash

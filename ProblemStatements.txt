@@ -1,0 +1,7 @@
+GIVE AN OPTIMAL SOLUTION FOR ALL THESE QUESTIONS !
+
+
+1) Program to find whether a number is a power of 2 - https://www.geeksforgeeks.org/program-to-find-whether-a-no-is-power-of-two/
+
+2) Check whether the number has only first and last bits set - https://www.geeksforgeeks.org/check-whether-the-number-has-only-first-and-last-bits-set-set-2/
+                                                               https://www.geeksforgeeks.org/check-whether-number-first-last-bits-set/
