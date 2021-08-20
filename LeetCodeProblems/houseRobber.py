@@ -17,6 +17,8 @@ class SolutionN:
         else:
             return 0
 
+# Iterative Solution
+
 class Solution:
     def rob(self, nums: List[int]) -> int:
         n = len(nums)
@@ -55,8 +57,6 @@ class Solution:
             self.memoized[len(nums)] = self.max
             return(self.memoized[len(nums)])
 
-
-# Iterative Solution
 
 
 if __name__ == '__main__':
