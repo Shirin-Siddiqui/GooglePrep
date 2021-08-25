@@ -7,6 +7,7 @@ class SolutionN:
         return self.robDp(0)
         
     def robDp(self,n):
+        print(n)
         if n < len(self.nums)-1:
             if self.dp[n] != -1: 
                 return self.dp[n]
@@ -20,7 +21,7 @@ class SolutionN:
 # Iterative Solution
 
 class Solution:
-    def rob(self, nums: List[int]) -> int:
+    def rob(self, nums) :
         n = len(nums)
         if(n==0):
             return 0
@@ -44,7 +45,7 @@ class Solution:
         self.memoized = []
         self.max = 0
 
-    def rob(self, nums) -> int:
+    def rob(self, nums) :
 
         if len(nums) == 0:
             return 0
