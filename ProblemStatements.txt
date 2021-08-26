@@ -5,3 +5,10 @@ GIVE AN OPTIMAL SOLUTION FOR ALL THESE QUESTIONS !
 
 2) Check whether the number has only first and last bits set - https://www.geeksforgeeks.org/check-whether-the-number-has-only-first-and-last-bits-set-set-2/
                                                                https://www.geeksforgeeks.org/check-whether-number-first-last-bits-set/
+
+
+
+Jhand Reasons
+
+1) difference between recursion and iteration
+2) 
