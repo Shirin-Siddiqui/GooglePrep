@@ -27,11 +27,13 @@ def maxSubsetSumNoAdjacent(array):
 
 def maxSubsetSumNoAdjacentOptimized(array):
     if not len(array):
-        return
+        return 0
     elif len(array) == 1:
         return array[1]
     second = array[0]
     first = max(array[1],array[0])
+    if len(array) == 2:
+        return first
     for i in range(2, len(array)):
         current = max(first,second + array[i])
         second = first
