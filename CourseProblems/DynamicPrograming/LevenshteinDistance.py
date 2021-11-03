@@ -30,7 +30,7 @@ def levenshteinDistance(str1, str2):
 
 def levenshteinDistanceOptimized(str1, str2):
     small = str1 if len(str1) < len(str2) else str2
-    big = str1 if len(str1) >= len(str2) else str2
+    big = str1 if len(str1) >= len(str2) else str2  
     evenEdits = [x for x in range(len(small) + 1)]
     oddEdits = [None for x in range(len(small) + 1)]
     for i in range(1, len(big) + 1):
@@ -46,7 +46,7 @@ def levenshteinDistanceOptimized(str1, str2):
                 currentEdits[j] = previousEdits[j-1]
             else:
                 currentEdits[j] = 1 + min(currentEdits[j-1], previousEdits[j], previousEdits[j-1])
-    return evenEdits[-1] if len(big) % 2 == 0 else oddEdits[-1]
+    return currentEdits[-1] #evenEdits[-1] if len(big) % 2 == 0 else oddEdits[-1]
 	
 str1 = "abc"
 str2 = "yabd"
