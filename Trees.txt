@@ -6,3 +6,350 @@ depth-first Search ->
 --> inorder
 --> preorder
 --> postorder
+
+
+{
+    “details”: {
+        “paymentOptions”: {
+            “emi”: {
+                “all”: {
+                    “dc”: {
+                        “all”: {
+                            “BARB”: {
+                                “tenureOptions”: {
+                                    “BOBD03”: {
+                                        “tenure”: 3.0,
+                                        “eligibility”: {
+                                            “status”: false,
+                                            “reason”: “Minimum required amount is 5000”
+                                        },
+                                        “minimumAmount”: 5000.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 16.0,
+                                        “monthlyEmi”: 1095.24,
+                                        “interestCharged”: 85.71,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    }
+                                },
+                                “title”: “Bank of Baroda”,
+                                “shortTitle”: “Bob”,
+                                “priority”: “100”,
+                                “eligibility”: {
+                                    “status”: false,
+                                    “reason”: “Minimum required amount is 5000”
+                                },
+                                “minimumAmount”: 5000.0,
+                                “maximumAmount”: null
+                            }
+                        },
+                        “hasEligible”: false
+                    },
+                    “cc”: {
+                        “all”: {
+                            “AMEX”: {
+                                “tenureOptions”: {
+                                    “EMIAMEX1”: {
+                                        “tenure”: 12.0,
+                                        “eligibility”: {
+                                            “status”: false,
+                                            “reason”: “Minimum required amount is 5000”
+                                        },
+                                        “minimumAmount”: 5000.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 0.0,
+                                        “monthlyEmi”: 266.67,
+                                        “interestCharged”: 0.0,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    },
+                                    “EMIAMEX3”: {
+                                        “tenure”: 3.0,
+                                        “eligibility”: {
+                                            “status”: false,
+                                            “reason”: “Minimum required amount is 5000”
+                                        },
+                                        “minimumAmount”: 5000.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 14.0,
+                                        “monthlyEmi”: 1091.65,
+                                        “interestCharged”: 74.96,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    },
+                                    “EMIAMEX6”: {
+                                        “tenure”: 6.0,
+                                        “eligibility”: {
+                                            “status”: false,
+                                            “reason”: “Minimum required amount is 5000”
+                                        },
+                                        “minimumAmount”: 5000.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 14.0,
+                                        “monthlyEmi”: 555.32,
+                                        “interestCharged”: 131.93,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    },
+                                    “EMIAMEX9”: {
+                                        “tenure”: 9.0,
+                                        “eligibility”: {
+                                            “status”: false,
+                                            “reason”: “Minimum required amount is 5000”
+                                        },
+                                        “minimumAmount”: 5000.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 14.0,
+                                        “monthlyEmi”: 376.62,
+                                        “interestCharged”: 189.55,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    }
+                                },
+                                “title”: “American Express”,
+                                “shortTitle”: “Amex”,
+                                “priority”: “100”,
+                                “eligibility”: {
+                                    “status”: false,
+                                    “reason”: “Minimum required amount is 5000”
+                                },
+                                “minimumAmount”: 5000.0,
+                                “maximumAmount”: null
+                            },
+                            “UTIB”: {
+                                “tenureOptions”: {
+                                    “EMIA12”: {
+                                        “tenure”: 12.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 2500.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 14.0,
+                                        “monthlyEmi”: 287.32,
+                                        “interestCharged”: 247.83,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    },
+                                    “EMIA3”: {
+                                        “tenure”: 3.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 2500.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 13.0,
+                                        “monthlyEmi”: 1089.86,
+                                        “interestCharged”: 69.58,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 320.0
+                                    },
+                                    “EMIA6”: {
+                                        “tenure”: 6.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 2500.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 13.0,
+                                        “monthlyEmi”: 553.74,
+                                        “interestCharged”: 122.42,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    }
+                                },
+                                “title”: “Axis Bank”,
+                                “shortTitle”: “Axis”,
+                                “priority”: “100”,
+                                “eligibility”: {
+                                    “status”: true
+                                },
+                                “minimumAmount”: 2500.0,
+                                “maximumAmount”: null
+                            },
+                            “CITI”: {
+                                “tenureOptions”: {
+                                    “EMIK3”: {
+                                        “tenure”: 3.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 2500.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 12.0,
+                                        “monthlyEmi”: 1088.07,
+                                        “interestCharged”: 64.21,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    },
+                                    “EMI03”: {
+                                        “tenure”: 3.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 2500.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 13.0,
+                                        “monthlyEmi”: 1089.86,
+                                        “interestCharged”: 69.58,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    }
+                                },
+                                “title”: “Citibank”,
+                                “shortTitle”: “Citi”,
+                                “priority”: “100”,
+                                “eligibility”: {
+                                    “status”: true
+                                },
+                                “minimumAmount”: 2500.0,
+                                “maximumAmount”: null
+                            },
+                            “SBIN”: {
+                                “tenureOptions”: {
+                                    “SBI03”: {
+                                        “tenure”: 3.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 2500.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 14.0,
+                                        “monthlyEmi”: 1091.65,
+                                        “interestCharged”: 74.96,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    },
+                                    “SBI06”: {
+                                        “tenure”: 6.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 2500.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 14.0,
+                                        “monthlyEmi”: 555.32,
+                                        “interestCharged”: 131.93,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    }
+                                },
+                                “title”: “State Bank of India”,
+                                “shortTitle”: “Sbi”,
+                                “priority”: “100”,
+                                “eligibility”: {
+                                    “status”: true
+                                },
+                                “minimumAmount”: 2500.0,
+                                “maximumAmount”: null
+                            },
+                            “HDFC”: {
+                                “tenureOptions”: {
+                                    “EMI”: {
+                                        “tenure”: 3.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 3000.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 15.0,
+                                        “monthlyEmi”: 1093.44,
+                                        “interestCharged”: 80.33,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    },
+                                    “EMI6”: {
+                                        “tenure”: 6.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 3000.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 15.0,
+                                        “monthlyEmi”: 556.91,
+                                        “interestCharged”: 141.45,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    }
+                                },
+                                “title”: “HDFC Bank”,
+                                “shortTitle”: “Hdfc”,
+                                “priority”: “100”,
+                                “eligibility”: {
+                                    “status”: true
+                                },
+                                “minimumAmount”: 3000.0,
+                                “maximumAmount”: null
+                            },
+                            “INDB”: {
+                                “tenureOptions”: {
+                                    “EMIIND3”: {
+                                        “tenure”: 3.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 2000.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 3.0,
+                                        “monthlyEmi”: 1072.0,
+                                        “interestCharged”: 16.01,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    },
+                                    “EMIIND6”: {
+                                        “tenure”: 6.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 2000.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 6.0,
+                                        “monthlyEmi”: 542.71,
+                                        “interestCharged”: 56.23,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    },
+                                    “EMIIND9”: {
+                                        “tenure”: 9.0,
+                                        “eligibility”: {
+                                            “status”: true
+                                        },
+                                        “minimumAmount”: 2000.0,
+                                        “maximumAmount”: null,
+                                        “interestRate”: 9.0,
+                                        “monthlyEmi”: 369.02,
+                                        “interestCharged”: 121.2,
+                                        “paybackAmount”: 0.0,
+                                        “bankCharge”: 0.0
+                                    }
+                                },
+                                “title”: “IndusInd Bank”,
+                                “shortTitle”: “Indusind”,
+                                “priority”: “100”,
+                                “eligibility”: {
+                                    “status”: true
+                                },
+                                “minimumAmount”: 2000.0,
+                                “maximumAmount”: null
+                            }
+                        },
+                        “hasEligible”: true
+                    }
+                }
+            }
+        }
+    },
+    “status”: 1.0
+}
+
+
+searching - 
+- linear search - O(n)
+- binary search - 
+sorting - 
+
+[,69,,35]
+
+1) First solution - O(n^2) 
+2) Second solution - O(n log(n)) 
+3) Third solution - O(n)
