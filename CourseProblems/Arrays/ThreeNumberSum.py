@@ -1,3 +1,9 @@
+'''
+PROBLEM STATEMENT - THREE NUMBER SUM
+'''
+
+# O(n^2) - Time Complexity where n is the length of the array
+# O(n) - Space Complexity where n is the length of the array
 def threeNumberSum(array, targetSum):
     array.sort()
     threeSumArray = []
