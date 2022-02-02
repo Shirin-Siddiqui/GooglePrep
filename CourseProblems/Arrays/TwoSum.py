@@ -32,6 +32,11 @@ def checkSumQuadratic(a,targetSum):
                 return
     print("Couldn't find it !")
 
+a = [1,4,5,5]
+targetSum = 8
+print(checkSumQuadratic(a,targetSum))
+
+
 # Solution Number 2 -> It has O(nlog(n)) Time Complexity
 
 def checkSumnLogn(a,targetSum):
@@ -82,7 +87,7 @@ def dp(a,n,targetSum,memoized):
 a = [1,2,3,9]
 targetSum = 8
 memoized = [[-1 for i in range(targetSum + 1)] for j in range(len(a)+1)]
-print(dp(a,len(a), targetSum, memoized))
+#print(dp(a,len(a), targetSum, memoized))
 
 #checkSumLinear(a,targetSum)
 
